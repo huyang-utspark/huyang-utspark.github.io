@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yang Hu - UT Austin # the website title (if blank, full name will be used instead)
+title: Yang Hu @ UT Austin
 first_name: Yang Hu
 middle_name:
 last_name:
-email:
+email: huyang@utexas.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yang Hu - Ph.D. Student in ECE, UT Austin
+  Yang Hu - Ph.D. Student at ECE, UT Austin
 #footer_text: >
 #  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
