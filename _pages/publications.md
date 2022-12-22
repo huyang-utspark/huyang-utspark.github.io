@@ -7,7 +7,7 @@ nav: true
 <span style="font-family:Consolas; font-size:1.25em; font-weight:bold;">SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications</span><br/>
 <span style="font-family:Consolas; font-size:1.25em;"> Wenxi Wang, <u>Yang Hu</u>, Ken McMillan, Sarfraz Khurshid</span><br/>
 <span style="font-family:Consolas; font-size:1.25em;">The 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'22)</span><br/>
-<span style="font-family:Consolas; font-size:1.25em;">\[[PREPRINT](https://wenxiwang.github.io/papers/SymMC.pdf), [CODE](https://github.com/wenxiwang/SymMC-Tool)\]</span><br/>
+<span style="font-family:Consolas; font-size:1.25em;">\[[PAPER](https://dl.acm.org/doi/abs/10.1145/3540250.3549161), [CODE](https://github.com/wenxiwang/SymMC-Tool)\]</span><br/>
 
 <span style="font-family:Consolas; font-size:1.25em; font-weight:bold;">SapientML: Synthesizing Machine Learning Pipelines by Learning
 from Human-Written Solutions</span><br/>
