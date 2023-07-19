@@ -5,9 +5,8 @@ title: Publications
 nav: true
 ---
 <span style="font-family:Consolas; font-size:1.25em; font-weight:bold;">Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks</span><br/>
-<span style="font-family:Consolas; font-size:1.25em;"> <u>Yang Hu</u>\*, Wenxi Wang\*, Ken McMillan, Sarfraz Khurshid, Mohit Tiwari</span><br/>
-<span style="font-family:Consolas; font-size:1.25em;">The 38th IEEE/ACM International Conference on Automated Software
-Engineering (ASE'23)</span><br/>
+<span style="font-family:Consolas; font-size:1.25em;"> <u>Yang Hu</u>\*, Wenxi Wang\*, Sarfraz Khurshid, Ken McMillan, Mohit Tiwari</span><br/>
+<span style="font-family:Consolas; font-size:1.25em;">The 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23)</span><br/>
 <span style="font-family:Consolas; font-size:1.25em;">\[[TO APPEAR](https://conf.researchr.org/home/ase-2023)\]</span><br/>
 
 <span style="font-family:Consolas; font-size:1.25em; font-weight:bold;">SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications</span><br/>
