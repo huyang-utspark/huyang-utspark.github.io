@@ -458,6 +458,7 @@
     .news-badge.paper{ border-color: color-mix(in srgb, var(--danger) 55%, var(--border)); }
     .news-badge.data{ border-color: color-mix(in srgb, var(--warn) 55%, var(--border)); }
     .news-badge.degree{ border-color: color-mix(in srgb, var(--accent2) 55%, var(--border)); }
+    .news-badge.patent{ border-color: color-mix(in srgb, var(--warn) 60%, var(--border)); }
 
     /* ADDED: highlight News links like About links */
     .news-body a{
@@ -555,6 +556,14 @@
     .pill.code{ border-color: color-mix(in srgb, var(--accent2) 55%, var(--border)); }
     .pill.data{ border-color: color-mix(in srgb, var(--warn) 55%, var(--border)); }
     .pill.slides{ border-color: color-mix(in srgb, var(--danger) 55%, var(--border)); }
+
+    /* Patents (reuse publications look) */
+    .patents{
+      display:flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 12px;
+    }
 
     /* Projects */
     .projects{
@@ -660,6 +669,7 @@
           <a href="#about">About</a>
           <a href="#news">News</a>
           <a href="#publications">Publications</a>
+          <a href="#patents">Patents</a>
           <a href="#projects">Projects</a>
           <a href="#service">Service</a>
         </div>
@@ -777,6 +787,7 @@
             <button class="segbtn" type="button" data-filter="service"><i class="fa-solid fa-clipboard-check"></i> Service</button>
             <button class="segbtn" type="button" data-filter="degree"><i class="fa-solid fa-graduation-cap"></i> Degree</button>
             <button class="segbtn" type="button" data-filter="data"><i class="fa-solid fa-database"></i> Data</button>
+            <button class="segbtn" type="button" data-filter="patent"><i class="fa-solid fa-certificate"></i> Patent</button>
           </div>
         </div>
 
@@ -786,6 +797,16 @@
 
         <!-- Recent news (always visible) -->
         <ul id="newsListRecent" class="news" aria-label="Recent news">
+          <li class="news-item" data-type="patent">
+            <div class="news-date">Jan 2026</div>
+            <div class="news-body">
+              <span class="news-badge patent"><i class="fa-solid fa-certificate"></i> Patent</span>
+              New patent published:
+              <a href="https://ppubs.uspto.gov/basic/"
+                 target="_blank" rel="noopener">US-12517809-B1</a>.
+            </div>
+          </li>
+
           <li class="news-item" data-type="launch">
             <div class="news-date">Dec 2025</div>
             <div class="news-body">
@@ -1047,6 +1068,36 @@
             <p class="pub-venue">Future Generation Computer Systems (Elsevier), Sep 2017</p>
             <div class="tagrow">
               <a class="pill paper" href="https://www.sciencedirect.com/science/article/pii/S0167739X17320113" target="_blank" rel="noopener"><i class="fa-regular fa-file-lines"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PATENTS -->
+  <section id="patents">
+    <div class="container">
+      <div class="card section-card">
+        <div class="section-head">
+          <div>
+            <h2>Patents</h2>
+          </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="patents">
+          <div class="pub">
+            <p class="pub-title">Adjusting satisfiability modulo theories solver configurations</p>
+            <p class="pub-meta"><u>Yang Hu</u>, Dejan Jovanovic, Amit Goel, Neha Rungta</p>
+            <p class="pub-venue">US-12517809-B1 • Amazon Technologies, Inc. • Published Jan 6, 2026</p>
+            <div class="tagrow">
+              <a class="pill paper"
+                 href="https://ppubs.uspto.gov/basic/"
+                 target="_blank" rel="noopener">
+                <i class="fa-regular fa-file-lines"></i> Patent Search
+              </a>
             </div>
           </div>
         </div>
